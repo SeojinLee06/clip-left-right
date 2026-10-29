@@ -1,0 +1,7 @@
+data/
+coco/
+whatsup_vlms/
+*.pt
+predictions*.csv
+__pycache__/
+.ipynb_checkpoints/
