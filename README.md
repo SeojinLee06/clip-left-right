@@ -4,6 +4,8 @@ CLIP cannot tell *"a mug to the left of a table"* from *"a mug to the right of a
 
 I started from that result. I first tried to fix it with training, which did not work. I then checked where the left/right information disappears, and read it out from the part of CLIP where it still exists. That reached **74–100%** on left/right questions where CLIP is at chance, with no training.
 
+**Report:** [`report/report.pdf`](report/report.pdf) (4 pages, CVPR format) covers the setup, all experiments, related work and limitations.
+
 ## Task
 
 Two captions that differ only in *left* / *right*. Pick the one that matches the image (chance = 50%).
@@ -73,6 +75,7 @@ bash scripts/run_all.sh        # one GPU; E3 + E4 take about 20 min on a Colab T
 | `src/exp3_mirror.py` | mirror-subtraction control |
 | `src/exp4_diagnose.py`, `src/exp4_patch_readout.py` | diagnosis and read-out |
 | `results/` | metrics of every run · [`NOTES.md`](NOTES.md): what I tried and why |
+| `report/` | LaTeX source and PDF of the report |
 
 ## References
 

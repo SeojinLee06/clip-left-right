@@ -5,3 +5,12 @@ whatsup_vlms/
 predictions*.csv
 __pycache__/
 .ipynb_checkpoints/
+
+# LaTeX build files
+report/*.aux
+report/*.bbl
+report/*.blg
+report/*.log
+report/*.out
+report/*.fls
+report/*.fdb_latexmk
