@@ -1,0 +1,49 @@
+{
+  "run": "unfrozen_seed1",
+  "metrics": {
+    "coco_one": {
+      "n": 1140,
+      "acc": 0.5219298245614035,
+      "acc_left": 0.5381944444444444,
+      "acc_right": 0.5053191489361702,
+      "flip_consistency": 0.05526315789473684,
+      "both_orig_and_flip_correct": 0.027192982456140352,
+      "n_pairs": 66,
+      "pair_acc": 0.015151515151515152,
+      "same_choice_rate": 0.10606060606060606
+    },
+    "coco_two": {
+      "n": 279,
+      "acc": 0.5017921146953405,
+      "acc_left": 0.6133333333333333,
+      "acc_right": 0.37209302325581395,
+      "flip_consistency": 0.06451612903225806,
+      "both_orig_and_flip_correct": 0.025089605734767026,
+      "n_pairs": 30,
+      "pair_acc": 0.1,
+      "same_choice_rate": 0.4
+    },
+    "whatsup_A": {
+      "n": 206,
+      "acc": 0.5,
+      "acc_left": 0.6796116504854369,
+      "acc_right": 0.32038834951456313,
+      "flip_consistency": 0.04854368932038835,
+      "both_orig_and_flip_correct": 0.014563106796116505,
+      "n_pairs": 103,
+      "pair_acc": 0.019417475728155338,
+      "same_choice_rate": 0.9611650485436893
+    },
+    "whatsup_B": {
+      "n": 204,
+      "acc": 0.4950980392156863,
+      "acc_left": 0.5098039215686274,
+      "acc_right": 0.4803921568627451,
+      "flip_consistency": 0.06372549019607843,
+      "both_orig_and_flip_correct": 0.0392156862745098,
+      "n_pairs": 102,
+      "pair_acc": 0.029411764705882353,
+      "same_choice_rate": 0.9313725490196079
+    }
+  }
+}

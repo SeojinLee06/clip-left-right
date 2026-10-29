@@ -1,0 +1,18 @@
+{
+  "whatsup_A": {
+    "total": 412,
+    "left_right": 206
+  },
+  "whatsup_B": {
+    "total": 408,
+    "left_right": 204
+  },
+  "coco_one": {
+    "total": 2247,
+    "left_right": 1140
+  },
+  "coco_two": {
+    "total": 440,
+    "left_right": 279
+  }
+}

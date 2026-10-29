@@ -1,0 +1,12 @@
+model: openai/clip-vit-base-patch32
+coco_dir: data/coco_lr
+eval_items: data/eval_lr/items.jsonl
+results_dir: results
+
+# E1 / E2 training (same for every condition)
+steps: 1000
+batch_size: 64
+lr: 1.0e-5
+weight_decay: 0.1
+warmup: 50
+log_every: 100

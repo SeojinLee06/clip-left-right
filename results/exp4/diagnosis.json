@@ -1,0 +1,106 @@
+{
+  "clip-vit-base-patch32": {
+    "T1_image_probe": {
+      "whatsup_A": {
+        "probe_acc": 0.621667,
+        "fold_accs": [
+          0.619048,
+          0.571429,
+          0.642857,
+          0.725,
+          0.55
+        ],
+        "n": 206
+      },
+      "whatsup_B": {
+        "probe_acc": 0.603095,
+        "fold_accs": [
+          0.666667,
+          0.52381,
+          0.625,
+          0.65,
+          0.55
+        ],
+        "n": 204
+      }
+    },
+    "T2_text": {
+      "coco_one": {
+        "cos_lr_swap": 0.994214,
+        "cos_noun_swap": 0.821946,
+        "frac_lr_swap_more_similar": 1,
+        "n": 1140
+      },
+      "coco_two": {
+        "cos_lr_swap": 0.990614,
+        "cos_noun_swap": 0.861922,
+        "frac_lr_swap_more_similar": 1,
+        "n": 279
+      },
+      "whatsup_A": {
+        "cos_lr_swap": 0.986511,
+        "cos_noun_swap": 0.853121,
+        "frac_lr_swap_more_similar": 1,
+        "n": 206
+      },
+      "whatsup_B": {
+        "cos_lr_swap": 0.98642,
+        "cos_noun_swap": 0.899761,
+        "frac_lr_swap_more_similar": 1,
+        "n": 204
+      }
+    }
+  },
+  "clip-vit-large-patch14": {
+    "T1_image_probe": {
+      "whatsup_A": {
+        "probe_acc": 0.597619,
+        "fold_accs": [
+          0.595238,
+          0.595238,
+          0.547619,
+          0.6,
+          0.65
+        ],
+        "n": 206
+      },
+      "whatsup_B": {
+        "probe_acc": 0.593333,
+        "fold_accs": [
+          0.571429,
+          0.595238,
+          0.525,
+          0.65,
+          0.625
+        ],
+        "n": 204
+      }
+    },
+    "T2_text": {
+      "coco_one": {
+        "cos_lr_swap": 0.990276,
+        "cos_noun_swap": 0.781766,
+        "frac_lr_swap_more_similar": 1,
+        "n": 1140
+      },
+      "coco_two": {
+        "cos_lr_swap": 0.983566,
+        "cos_noun_swap": 0.833126,
+        "frac_lr_swap_more_similar": 1,
+        "n": 279
+      },
+      "whatsup_A": {
+        "cos_lr_swap": 0.981297,
+        "cos_noun_swap": 0.792983,
+        "frac_lr_swap_more_similar": 1,
+        "n": 206
+      },
+      "whatsup_B": {
+        "cos_lr_swap": 0.978411,
+        "cos_noun_swap": 0.846414,
+        "frac_lr_swap_more_similar": 1,
+        "n": 204
+      }
+    }
+  }
+}
